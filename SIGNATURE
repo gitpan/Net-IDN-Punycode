@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 c00df0d8f2df65dbfd081169992a2f38de787d66 Build.PL
+SHA1 7a1edc4d8d37b370d02bfdc1090d790ed655e1ba Changes
+SHA1 db6132facac62a3a2dcc70d64533ba437679c966 LICENSE
+SHA1 02f4f243e497da0c14c80231cf663b7e7ece1d9c MANIFEST
+SHA1 576e20e55179cd6c685eb9af74cc2dd7bb18d784 META.json
+SHA1 e848a0caa2d12ac74eb803c6fa59ba4ee29bab5b META.yml
+SHA1 4f4bdea6551d8a72e3ebde1147cf8015c76add93 Makefile.PL
+SHA1 c8a69723d9c0f8a828f5c6062cfae07759816777 README
+SHA1 ecb380daee69620da813f49d836e5b36b4fe770c lib/Net/IDN/Punycode.pm
+SHA1 c1b2f77f6820ecc640cdea08749d438b92b994eb lib/Net/IDN/Punycode.xs
+SHA1 245a087aec75eaa19916ad7e208109c19e2432a0 lib/Net/IDN/Punycode/PP.pm
+SHA1 2a2a44fe395e82226635fb1d013129ea48845958 lib/Net/IDN/Stupid.pm
+SHA1 a0fb91c6336b905d37f09468b66bf7a821b33df1 t/00use.t
+SHA1 056063d18c3f48338620bbff698f81f91f2ea4d0 t/10pod.t
+SHA1 6758a00417223fe5741ee1672739110ab1484f9c t/11pod_cover.t
+SHA1 6c851baa3a241cd023b01174c7af51bae280f824 t/encode_bytes.t
+SHA1 3ba34c154e728a98dd6b450b4e86a771572345b9 t/encode_utf8.t
+SHA1 11738a334df75b930f65a8b771e8dd10f99c2e5a t/punycode_vec-pp.t
+SHA1 1f3ffae004e57ea3ae21f171227763ce85b9a296 t/punycode_vec.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (Darwin)
+
+iEYEARECAAYFAk7+KcEACgkQSKUOY2OWgPBxOwCgrtwkTCHxR/3X5zH9a7d3vdnJ
++yMAn3tNBWXh9v+uzjMMVqd4UPmkwQbJ
+=3f1R
+-----END PGP SIGNATURE-----
