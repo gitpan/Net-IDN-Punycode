@@ -18,7 +18,7 @@ name: Net-IDN-Punycode
 provides:
   Net::IDN::Punycode:
     file: lib/Net/IDN/Punycode.pm
-    version: 1.009_20120102
+    version: 1.009_20120104
   Net::IDN::Punycode::PP:
     file: lib/Net/IDN/Punycode/PP.pm
     version: 1.001
@@ -29,4 +29,4 @@ requires:
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.009_20120102
+version: 1.009_20120104
